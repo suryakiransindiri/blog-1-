@@ -10,9 +10,20 @@
   <title>Deloitte-Blog</title>
   <style>
     body{
-        background-image: url(deloittek.jpg);
-        /* background-size: auto;
-        background-repeat: no-repeat; */
+        background-image: url(deloitte4k.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color:red;
+    }
+    h6{
+         color:green;
+    }
+    .head{
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
     }
   </style>
 </head>
@@ -22,8 +33,7 @@
              <a class="navbar-brand" href="#">Deloitte<span class="text-success">.</span></a>
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon">
-
-                </span>
+              </span>
             </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                      <ul class="navbar-nav me-auto">
@@ -41,6 +51,13 @@
                          <input class="form-control me-2 bg-dark text-Warning" type="text" placeholder="Search Blogs">
                           <button class="btn  btn-success bg-dark text-Warning" type="button">Search</button>
                         </form>
+                        </div>
+                    </nav>
+                    <div class="container-fluid d-flex justify-content-end mt-2 p-4">
+                        <div class="d-flex flex-column">
+                        <div class="display-5 text-danger">Deloitte Blogs App</div>
+                        <div class="display-6text-success">Welcome to Deloitte Appilication</div>
+                        <a href="allblogs.html" class="display-6">Read Blog Posts...</a>
                         </div>
                     </body>
                     </html>
